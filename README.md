@@ -9,7 +9,7 @@
 4. **don't forget**
     * connect to the webapp service container and launch composer install.    
     * clear the cache of the app before start coding.
-    * **do the step 1 and 2 with as non root user**.
+    * **do the step 1 and 2 as non root user**.
   
  
 
