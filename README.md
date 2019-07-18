@@ -3,7 +3,7 @@
 ## Installation
 
 1. create app folder at the root of your project
-    1. create a new app folder in and clone your project in it
+    * create a new app folder in and clone your project in it
 2. set the .env file
 3. start docker service with docker compose
 4. **don't forget**
