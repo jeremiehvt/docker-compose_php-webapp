@@ -7,9 +7,9 @@
 2. set the .env file
 3. start docker service with docker compose
 4. **don't forget**
-    1. connect to the webapp service container and launch composer install.    
-    2. clear the cache of the app before start coding.
-    3. **do the step 1 and 2 with as non root user**.
+    * connect to the webapp service container and launch composer install.    
+    * clear the cache of the app before start coding.
+    * **do the step 1 and 2 with as non root user**.
   
  
 
