@@ -36,7 +36,7 @@ RUN yes | pecl install xdebug \
     && echo "xdebug.remote_enable=on" >> /usr/local/etc/php/conf.d/xdebug.ini \
     && echo "xdebug.remote_autostart=off" >> /usr/local/etc/php/conf.d/xdebug.ini
 
-RUN useradd -g www-data -G sudo,root ${ADMIN_USER}
+RUN useradd -g www-data -G sudo,root -m ${ADMIN_USER}
 
 RUN a2enmod rewrite
 
